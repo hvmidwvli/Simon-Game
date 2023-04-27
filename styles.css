@@ -52,3 +52,14 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+@media screen and (max-width: 992px) {
+  .btn {
+    margin: 15px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+    border-radius: 18%;
+  }
+}
